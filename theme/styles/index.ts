@@ -1,0 +1,10 @@
+import '@slidev/client/styles/layouts-base.css';
+import './prism.css';
+import './layouts.css';
+import './layouts/shared.css';
+import './layouts/cover.css';
+import './layouts/fact.css';
+import './layouts/statement.css';
+import './layouts/quote.css';
+import './layouts/two-three-cols.css';
+import './layouts/image-layouts.css';

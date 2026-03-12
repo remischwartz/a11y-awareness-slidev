@@ -1,0 +1,20 @@
+/* ============================================
+   Quote layout
+   ============================================ */
+.slidev-layout.quote {
+  @apply grid h-full;
+
+  h1 {
+    @apply text-6xl;
+  }
+
+  h1::before,
+  h1::after {
+    content: '"';
+    @apply text-teal;
+  }
+
+  h1 + p {
+    @apply mt-1;
+  }
+}

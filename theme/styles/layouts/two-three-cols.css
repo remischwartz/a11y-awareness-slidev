@@ -1,0 +1,52 @@
+/* ============================================
+   Two-cols and Three-cols layouts
+   ============================================ */
+
+/* 
+
+.two-columns {
+  max-height: 75vh;
+}
+
+.col {
+  overflow-y: auto;
+  padding-right: 0.5rem;
+}
+*/
+
+.slidev-layout.three-cols,
+.slidev-layout.two-cols {
+}
+
+.col {
+  @apply bg-transparent px-4 my-3;
+  /*  backdrop-filter: var(--eys-backdrop-filter);
+  box-shadow: var(--ey-box-shadow); */
+
+  h2,
+  h3 {
+    @apply mb-4;
+  }
+
+  > .slidev-code-wrapper {
+    margin-left: -1rem !important;
+    margin-right: -1rem !important;
+  }
+  pre:first-child {
+    margin-top: 0 !important;
+  }
+
+  pre:last-child {
+    margin-bottom: 0 !important;
+  }
+
+  .slidev-code-wrapper:last-child > pre {
+    margin-bottom: 0 !important;
+    /* */
+  }
+}
+
+.col:has(.slidev-code-wrapper:last-child) {
+  padding-bottom: 0rem !important;
+  margin-bottom: 0rem !important;
+}

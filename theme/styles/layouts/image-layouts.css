@@ -1,0 +1,17 @@
+/* ============================================
+   Image-left and Image-right layouts
+   ============================================ */
+.slidev-layout.image-left,
+.slidev-layout.image-right {
+  @apply grid grid-cols-2 gap-0 p-0;
+
+  .image-left-content,
+  .image-right-content {
+    @apply p-8;
+  }
+
+  .image-right-image,
+  .image-left-image {
+    @apply w-full h-full;
+  }
+}

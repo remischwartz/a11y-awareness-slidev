@@ -1,0 +1,14 @@
+/* ============================================
+   Statement layout
+   ============================================ */
+.slidev-layout.statement {
+  @apply text-center grid h-full;
+
+  h1 {
+    @apply text-6xl font-700;
+  }
+
+  h1 + p {
+    @apply text-white;
+  }
+}

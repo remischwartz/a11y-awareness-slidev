@@ -1,0 +1,10 @@
+/* ============================================
+   Fact layout
+   ============================================ */
+.slidev-layout.fact {
+  @apply text-center grid h-full;
+
+  h1 {
+    @apply text-6xl font-700;
+  }
+}

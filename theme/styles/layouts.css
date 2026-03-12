@@ -1,0 +1,93 @@
+/* ============================================
+   Global Keyframes
+   ============================================ */
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes background-animation {
+  0%,
+  100% {
+    background-size: 150%;
+  }
+  25% {
+    background-size: 110%;
+  }
+  50% {
+    background-size: 100%;
+  }
+  75% {
+    background-size: 120%;
+  }
+}
+
+/* ============================================
+   EY Branding - Logo
+   ============================================ */
+.ey-logo,
+.ey-logo-light {
+  @apply absolute z-20 pointer-events-none right-8 bottom-8;
+}
+
+.ey-logo img {
+  @apply h-21 w-auto;
+  object-fit: contain;
+}
+
+.ey-logo-light img {
+  @apply h-7 w-auto;
+  object-fit: contain;
+}
+
+/* ============================================
+   Generic HTML Elements
+   ============================================ */
+table {
+  @apply text-xs font-100 mb-4;
+}
+
+table:last-child {
+  @apply mb-0;
+}
+
+ul {
+  @apply text-sm;
+}
+
+ul p {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+/* Bottom line styling */
+.bottom-line {
+  font-size: 0.55rem;
+}
+
+.bottom-line > p > span {
+  margin-right: 2.5rem;
+}
+
+.slidev-vclick-hidden {
+  opacity: 0 !important;
+  transform: scaleX(0.875) !important;
+  transform-origin: left !important;
+  pointer-events: none !important;
+  user-select: none !important;
+}
+
+.slidev-vclick-target {
+  transform: scaleX(1);
+  transform-origin: left;
+  transition-property: opacity, transform;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 400ms;
+}

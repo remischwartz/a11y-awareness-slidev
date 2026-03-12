@@ -1,0 +1,65 @@
+/* ============================================
+   Shared styles across multiple layouts
+   ============================================ */
+
+.slidev-layout {
+  @apply p-8;
+
+  p {
+    @apply my-2 font-100;
+  }
+
+  p + h2,
+  ul + h2,
+  table + h2 {
+    @apply mt-10;
+  }
+
+  h1 {
+    @apply text-4xl mb-4 -ml-[0.05em] font-700 text-yellow;
+  }
+
+  h1 + p {
+    @apply font-100 -mt-4 mb-4;
+  }
+
+  h2 {
+    @apply text-3xl;
+  }
+
+  h3 {
+    @apply text-2xl;
+  }
+
+  h4 {
+    @apply text-xl;
+  }
+
+  h5 {
+    @apply text-base;
+  }
+
+  h6 {
+    @apply text-base pt-1 uppercase tracking-widest font-500 -ml-[0.05em];
+  }
+
+  h6:not(.opacity-100) {
+    @apply opacity-40;
+  }
+
+  li {
+    @apply font-100;
+  }
+
+  blockquote {
+    @apply shadow-lg bg-transparent rounded-none p-4 border-l-1 border-yellow my-3;
+    backdrop-filter: var(--eys-backdrop-filter);
+    box-shadow: var(--ey-box-shadow);
+  }
+}
+
+/* Code blocks styling */
+.slidev-layout pre {
+  @apply shadow-lg bg-black/65 rounded-none! p-4! my-3 text-xxs!;
+  backdrop-filter: blur(4px) url(#container-glass) !important;
+}
