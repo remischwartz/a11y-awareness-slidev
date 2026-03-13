@@ -85,7 +85,7 @@ class: text-center
 
 <div class="grid grid-cols-2 gap-8 mt-8">
 
-<div v-click class="text-center p-6 bg-blue/20 rounded-lg">
+<div v-click class="text-center p-6 bg-blue/20 rounded-lg border-l-4 border-blue">
   <div class="text-5xl font-bold text-blue">20%</div>
   <div class="mt-2">de la population européenne est en situation de handicap</div>
   <div class="mt-3 text-xs opacity-80">
@@ -94,7 +94,7 @@ class: text-center
   </div>
 </div>
 
-<div v-click class="text-center p-6 bg-purple/20 rounded-lg">
+<div v-click class="text-center p-6 bg-purple/20 rounded-l border-l-4 border-purple">
   <div class="text-5xl font-bold text-purple">16%</div>
   <div class="mt-2">de la population mondiale vit avec un handicap significatif</div>
   <div class="mt-3 text-xs opacity-80">
@@ -103,7 +103,7 @@ class: text-center
   </div>
 </div>
 
-<div v-click class="text-center p-6 bg-green/30 rounded-lg">
+<div v-click class="text-center p-6 bg-green/30 rounded-lg border-l-4 border-green">
   <div class="text-5xl font-bold text-green">100%</div>
   <div class="mt-2">des utilisateurs bénéficient d'une meilleure UX accessible</div>
   <div class="mt-3 text-xs opacity-80">
@@ -112,7 +112,7 @@ class: text-center
   </div>
 </div>
 
-<div v-click class="text-center p-6 bg-orange/20 rounded-lg">
+<div v-click class="text-center p-6 bg-orange/20 rounded-lg border-l-4 border-orange">
   <div class="text-5xl font-bold text-orange">60,5%</div>
   <div class="mt-2">des sites contrôlés sans mention de conformité (Arcom, 2024)</div>
   <div class="mt-3 text-xs opacity-80">
@@ -135,7 +135,7 @@ class: text-center
 
 <div class="grid grid-cols-2 gap-3 mt-6">
 
-<div v-click class="h-24 flex items-center gap-3 p-3 bg-blue/20 rounded-lg">
+<div v-click class="h-24 flex items-center gap-3 p-3 bg-blue/20 rounded-lg border-l-4 border-blue">
   <div class="text-2xl">👁️</div>
   <div>
     <div class="font-bold text-base">Percevoir</div>
@@ -143,7 +143,7 @@ class: text-center
   </div>
 </div>
 
-<div v-click class="h-24 flex items-center gap-3 p-3 bg-purple/20 rounded-lg">
+<div v-click class="h-24 flex items-center gap-3 p-3 bg-purple/20 rounded-lg border-l-4 border-purple">
   <div class="text-2xl">🧠</div>
   <div>
     <div class="font-bold text-base">Comprendre</div>
@@ -151,7 +151,7 @@ class: text-center
   </div>
 </div>
 
-<div v-click class="h-24 flex items-center gap-3 p-3 bg-green/20 rounded-lg">
+<div v-click class="h-24 flex items-center gap-3 p-3 bg-green/20 rounded-lg border-l-4 border-green">
   <div class="text-2xl">🧭</div>
   <div>
     <div class="font-bold text-base">Naviguer</div>
@@ -159,7 +159,7 @@ class: text-center
   </div>
 </div>
 
-<div v-click class="h-24 flex items-center gap-3 p-3 bg-orange/20 rounded-lg">
+<div v-click class="h-24 flex items-center gap-3 p-3 bg-orange/20 rounded-lg border-l-4 border-orange">
   <div class="text-2xl">✍️</div>
   <div>
     <div class="font-bold text-base">Contribuer</div>
@@ -167,7 +167,7 @@ class: text-center
   </div>
 </div>
 
-<div v-click class="h-24 col-span-2 w-full max-w-3xl mx-auto flex items-center gap-3 p-3 bg-fuchsia/20 rounded-lg">
+<div v-click class="h-24 col-span-2 w-full max-w-3xl mx-auto flex items-center gap-3 p-3 bg-fuchsia/20 rounded-lg border-l-4 border-fuchsia">
   <div class="text-2xl">🤝</div>
   <div>
     <div class="font-bold text-base">Interagir</div>
@@ -183,7 +183,7 @@ class: text-center
 
 <div class="grid grid-cols-2 gap-6 mt-8">
 
-<div v-click class="p-4 bg-dark/50 rounded-lg">
+<div v-click class="p-4 bg-dark/50 rounded-lg border-l-4 border-white">
   <div class="font-bold text-lg mb-3">👁️ Visuels</div>
   <div class="text-sm space-y-1">
     <div>🔊 Lecteur d'écran</div>
@@ -193,7 +193,7 @@ class: text-center
   </div>
 </div>
 
-<div v-click class="p-4 bg-dark/50 rounded-lg">
+<div v-click class="p-4 bg-dark/50 rounded-lg border-l-4 border-white">
   <div class="font-bold text-lg mb-3">👂 Auditifs</div>
   <div class="text-sm space-y-1">
     <div>📝 Sous-titres</div>
@@ -202,7 +202,7 @@ class: text-center
   </div>
 </div>
 
-<div v-click class="p-4 bg-dark/50 rounded-lg">
+<div v-click class="p-4 bg-dark/50 rounded-lg border-l-4 border-white">
   <div class="font-bold text-lg mb-3">🎮 Moteurs</div>
   <div class="text-sm space-y-1">
     <div>⌨️ Clavier monomanuel</div>
@@ -212,7 +212,7 @@ class: text-center
   </div>
 </div>
 
-<div v-click class="p-4 bg-dark/50 rounded-lg">
+<div v-click class="p-4 bg-dark/50 rounded-lg border-l-4 border-white">
   <div class="font-bold text-lg mb-3">🧭 Cognitifs</div>
   <div class="text-sm space-y-1">
     <div>📖 Langage simplifié</div>
@@ -273,12 +273,12 @@ class: text-center
 <div v-click class="mt-2 p-3 bg-teal/20 rounded-lg text-sm">
 <div class="font-bold">📋 Obligations documentaires a publier</div>
 <ul class="mt-2 list-disc list-inside">
-  <li>Conformite au referentiel choisi (RGAA recommande en France)</li>
-  <li>Déclaration d'accessibilité</li>
-  <li>Moyens de contact</li>
-  <li>Statut de conformité affiché</li>
-  <li>Schéma pluriannuel (3 ans)</li>
-  <li>Plan d'actions annuel (actions de l'annee + suivi des annees precedentes)</li>
+  <li class="leading-5!">Conformite au referentiel choisi (RGAA recommande en France)</li>
+  <li class="leading-5!">Déclaration d'accessibilité</li>
+  <li class="leading-5!">Moyens de contact</li>
+  <li class="leading-5!">Statut de conformité affiché</li>
+  <li class="leading-5!">Schéma pluriannuel (3 ans)</li>
+  <li class="leading-5!">Plan d'actions annuel (actions de l'annee + suivi des annees precedentes)</li>
 </ul>
 </div>
 
@@ -332,7 +332,7 @@ class: text-center
 
 <div class="grid grid-cols-2 gap-2 mt-1 text-xs">
 
-<div v-click class="flex items-start gap-2 p-2 bg-dark/50 rounded">
+<div v-click class="flex items-start gap-2 p-2 bg-dark/50 rounded border-l-4 border-white">
   <div class="text-lg">🖼️</div>
   <div>
     <div class="font-bold">1. Images</div>
@@ -340,7 +340,7 @@ class: text-center
   </div>
 </div>
 
-<div v-click class="flex items-start gap-2 p-2 bg-dark/50 rounded">
+<div v-click class="flex items-start gap-2 p-2 bg-dark/50 rounded border-l-4 border-white">
   <div class="text-lg">🎬</div>
   <div>
     <div class="font-bold">2. Cadres</div>
@@ -348,7 +348,7 @@ class: text-center
   </div>
 </div>
 
-<div v-click class="flex items-start gap-2 p-2 bg-dark/50 rounded">
+<div v-click class="flex items-start gap-2 p-2 bg-dark/50 rounded border-l-4 border-white">
   <div class="text-lg">🎨</div>
   <div>
     <div class="font-bold">3. Couleurs</div>
@@ -356,7 +356,7 @@ class: text-center
   </div>
 </div>
 
-<div v-click class="flex items-start gap-2 p-2 bg-dark/50 rounded">
+<div v-click class="flex items-start gap-2 p-2 bg-dark/50 rounded border-l-4 border-white">
   <div class="text-lg">🎥</div>
   <div>
     <div class="font-bold">4. Multimédia</div>
@@ -364,7 +364,7 @@ class: text-center
   </div>
 </div>
 
-<div v-click class="flex items-start gap-2 p-2 bg-dark/50 rounded">
+<div v-click class="flex items-start gap-2 p-2 bg-dark/50 rounded border-l-4 border-white">
   <div class="text-lg">📊</div>
   <div>
     <div class="font-bold">5. Tableaux</div>
@@ -372,7 +372,7 @@ class: text-center
   </div>
 </div>
 
-<div v-click class="flex items-start gap-2 p-2 bg-dark/50 rounded">
+<div v-click class="flex items-start gap-2 p-2 bg-dark/50 rounded border-l-4 border-white">
   <div class="text-lg">🔗</div>
   <div>
     <div class="font-bold">6. Liens</div>
@@ -380,7 +380,7 @@ class: text-center
   </div>
 </div>
 
-<div v-click class="flex items-start gap-2 p-2 bg-dark/50 rounded">
+<div v-click class="flex items-start gap-2 p-2 bg-dark/50 rounded border-l-4 border-white">
   <div class="text-lg">📝</div>
   <div>
     <div class="font-bold">7. Scripts</div>
@@ -388,7 +388,7 @@ class: text-center
   </div>
 </div>
 
-<div v-click class="flex items-start gap-2 p-2 bg-dark/50 rounded">
+<div v-click class="flex items-start gap-2 p-2 bg-dark/50 rounded border-l-4 border-white">
   <div class="text-lg">⚙️</div>
   <div>
     <div class="font-bold">8. Obligatoires</div>
@@ -396,7 +396,7 @@ class: text-center
   </div>
 </div>
 
-<div v-click class="flex items-start gap-2 p-2 bg-dark/50 rounded">
+<div v-click class="flex items-start gap-2 p-2 bg-dark/50 rounded border-l-4 border-white">
   <div class="text-lg">📐</div>
   <div>
     <div class="font-bold">9. Structuration</div>
@@ -404,7 +404,7 @@ class: text-center
   </div>
 </div>
 
-<div v-click class="flex items-start gap-2 p-2 bg-dark/50 rounded">
+<div v-click class="flex items-start gap-2 p-2 bg-dark/50 rounded border-l-4 border-white">
   <div class="text-lg">📖</div>
   <div>
     <div class="font-bold">10. Présentation</div>
@@ -412,7 +412,7 @@ class: text-center
   </div>
 </div>
 
-<div v-click class="flex items-start gap-2 p-2 bg-dark/50 rounded">
+<div v-click class="flex items-start gap-2 p-2 bg-dark/50 rounded border-l-4 border-white">
   <div class="text-lg">📋</div>
   <div>
     <div class="font-bold">11. Formulaires</div>
@@ -420,7 +420,7 @@ class: text-center
   </div>
 </div>
 
-<div v-click class="flex items-start gap-2 p-2 bg-dark/50 rounded">
+<div v-click class="flex items-start gap-2 p-2 bg-dark/50 rounded border-l-4 border-white">
   <div class="text-lg">🧭</div>
   <div>
     <div class="font-bold">12. Navigation</div>
@@ -428,7 +428,7 @@ class: text-center
   </div>
 </div>
 
-<div v-click class="flex items-start gap-2 p-2 bg-dark/50 rounded">
+<div v-click class="flex items-start gap-2 p-2 bg-dark/50 rounded border-l-4 border-white">
   <div class="text-lg">📱</div>
   <div>
     <div class="font-bold">13. Consultation</div>
@@ -517,7 +517,7 @@ Passez à l'action dès demain !
 
 # Dans votre navigateur
 
-<div class="grid grid-cols-2 gap-4 mt-12">
+<div class="grid grid-cols-3 gap-4 mt-12">
 
 <div v-click class="p-3 bg-dark/50 rounded-lg border-l-4 border-blue">
   <div class="flex items-center gap-3 mb-2">
@@ -579,35 +579,37 @@ Passez à l'action dès demain !
 
 ---
 
-# Aparté : IA et accessibilite
+# AI powered a11y
 
-<div class="grid grid-cols-2 gap-6 mt-8 text-sm">
+<div class="mt-8 text-base space-y-4">
 
-<div v-click class="p-4 bg-dark/50 rounded-lg border-l-4 border-blue">
-  <div class="font-bold mb-2">🤖 Ce que l'IA peut aider a faire</div>
-  <ul class="list-disc list-inside space-y-1">
-    <li>Proposer des alt text ou des labels initiaux</li>
-    <li>Signaler des patterns suspects dans le code</li>
-    <li>Aider a preparer une pre-checklist d'audit</li>
-    <li>Generer des tests unitaires a11y de base</li>
+<div v-click class="p-3 bg-blue/15 rounded-lg border-l-4 border-blue">
+  <div class="font-bold">1. Ajouter le skill</div>
+  <div class="mt-1"><code>~/.agents/skills/rgaa-accessibilite/SKILL.md</code></div>
+  <a href="https://www.notion.so/Skill-RGAA-a11y-3224ee4a529d8010a1e1c7937916f41f?pvs=21" target="_blank" class="text-cyan underline">Skill RGAA a11y</a>
+</div>
+
+<div v-click class="pt-1">
+</div>
+
+<div v-click class="p-3 bg-dark/50 rounded-lg border-l-4 border-green text-sm">
+  <div class="font-bold mb-2">2. Utilisation avec prompts</div>
+  <ul>
+    <li>
+      <strong>Audit :</strong><br>
+      <code>Audit RGAA de ce composant, liste les criteres, ecarts, correctifs et tests.</code>
+    </li>
+    <li>
+      <strong>Implementation :</strong><br>
+      <code>Cree ce composant en conformite RGAA avec preuves de verification.</code>
+    </li>
+    <li>
+      <strong>Revue PR :</strong><br>
+      <code>Review accessibilite RGAA de cette diff, avec severite et criteres concernes.</code>
+    </li>
   </ul>
 </div>
 
-<div v-click class="p-4 bg-red/20 rounded-lg border-l-4 border-red">
-  <div class="font-bold mb-2">🧭 Limites actuelles</div>
-  <ul class="list-disc list-inside space-y-1">
-    <li>Ne comprend pas toujours le contexte metier</li>
-    <li>Peut produire de faux positifs / faux negatifs</li>
-    <li>Ne remplace pas les tests clavier et lecteur d'ecran</li>
-    <li>Ne remplace pas un audit RGAA/WCAG humain</li>
-  </ul>
-</div>
-
-</div>
-
-<div v-click class="mt-6 p-3 bg-green/20 rounded-lg border-l-4 border-green text-sm">
-  <div class="font-bold">✅ Position recommandee</div>
-  <div class="mt-1">Utiliser l'IA comme copilote pour accelerer, puis valider systematiquement avec des tests manuels et des personnes expertes.</div>
 </div>
 
 ---
