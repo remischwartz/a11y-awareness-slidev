@@ -236,7 +236,7 @@ class: text-center
 
 - 📋 **106 critères** répartis en 13 thématiques
 - 🇫🇷 Version 4.1.2 basée sur les critères des niveaux A et AA des **WCAG 2.1** (Web Content Accessibility Guidelines)
-- ⚖️ **Obligation légale** pour les organismes publics et entreprises > 250M€ CA
+- ⚖️ Cadre légal : obligation RGAA stricte pour le secteur public et les grandes entreprises, et obligation d'accessibilité pour d'autres acteurs depuis 2025
 
 </v-clicks>
 
@@ -244,12 +244,12 @@ class: text-center
 
 <div v-click class="mt-8 p-4 bg-red/20 border-l-4 border-red rounded">
 <div class="font-bold">⚠️ Obligations légales en France</div>
-<div class="mt-2">3 catégories concernées par l'obligation RGAA</div>
+<div class="mt-2">3 categories concernees par les obligations d'accessibilite numerique</div>
 </div>
 
 ---
 
-# Qui doit se conformer au RGAA ?
+# Qui est concerne par les obligations d'accessibilite ?
 
 <div class="space-y-2 mt-8">
 
@@ -265,20 +265,26 @@ class: text-center
 
 <div v-click class="p-3 bg-purple/20 rounded-lg border-l-4 border-purple">
   <div class="font-bold text-base mb-1">🆕 Entreprises : CA > 2M€ OU > 10 salariés</div>
-  <div class="text-sm">Depuis 28 juin 2025 pour certains secteurs : banque, transports, audiovisuel, e-commerce, etc.</div>
+  <div class="text-sm">Depuis le 28 juin 2025 (selon secteur) : obligation d'etre accessible, avec un flou juridique sur l'obligation RGAA stricte et la declaration associee.</div>
 </div>
 
 </div>
 
 <div v-click class="mt-2 p-3 bg-teal/20 rounded-lg text-sm">
-<div class="font-bold">📋 Obligations minimales (pour ces 3 catégories)</div>
+<div class="font-bold">📋 Obligations documentaires a publier</div>
 <ul class="mt-2 list-disc list-inside">
-  <li>Conformité RGAA</li>
+  <li>Conformite au referentiel choisi (RGAA recommande en France)</li>
   <li>Déclaration d'accessibilité</li>
   <li>Moyens de contact</li>
   <li>Statut de conformité affiché</li>
   <li>Schéma pluriannuel (3 ans)</li>
+  <li>Plan d'actions annuel (actions de l'annee + suivi des annees precedentes)</li>
 </ul>
+</div>
+
+<div v-click class="mt-2 p-3 bg-yellow/20 rounded-lg text-sm">
+<div class="font-bold">⚖️ Point de vigilance juridique (secteur prive)</div>
+<div class="mt-1">Pour les entreprises concernees par les seuils > 2M€ ou > 10 salaries, l'obligation est d'etre accessible. La methode peut etre RGAA, WCAG ou equivalent, selon votre strategie de conformite.</div>
 </div>
 
 ---
@@ -554,6 +560,54 @@ Passez à l'action dès demain !
   <a href="https://addons.mozilla.org/fr/firefox/addon/headingsmap/" target="_blank" class="text-xs text-blue ml-4">Firefox</a>
 </div>
 
+<div v-click class="p-3 bg-dark/50 rounded-lg border-l-4 border-teal">
+  <div class="flex items-center gap-3 mb-2">
+    <div class="text-2xl">🧪</div>
+    <div class="font-bold">Assistant RGAA</div>
+  </div>
+  <div class="text-xs opacity-80 mb-1">Etat des lieux et preparation d'audit</div>
+  <div class="text-xs">Permet de passer les criteres et de structurer une pre-analyse.</div>
+  <a href="https://accessibilite.numerique.gouv.fr/" target="_blank" class="text-xs text-blue">Ressources RGAA officielles</a>
+</div>
+
+</div>
+
+<div v-click class="mt-4 p-3 bg-amber/20 rounded-lg text-sm border-l-4 border-amber">
+  <div class="font-bold">⚠️ Important</div>
+  <div class="mt-1">Les outils automatises couvrent seulement une petite partie de la conformite. Ils detectent des signaux techniques, mais pas la qualite reelle de l'experience (sens, comprehension, parcours, annonces vocales, etc.).</div>
+</div>
+
+---
+
+# Aparté : IA et accessibilite
+
+<div class="grid grid-cols-2 gap-6 mt-8 text-sm">
+
+<div v-click class="p-4 bg-dark/50 rounded-lg border-l-4 border-blue">
+  <div class="font-bold mb-2">🤖 Ce que l'IA peut aider a faire</div>
+  <ul class="list-disc list-inside space-y-1">
+    <li>Proposer des alt text ou des labels initiaux</li>
+    <li>Signaler des patterns suspects dans le code</li>
+    <li>Aider a preparer une pre-checklist d'audit</li>
+    <li>Generer des tests unitaires a11y de base</li>
+  </ul>
+</div>
+
+<div v-click class="p-4 bg-red/20 rounded-lg border-l-4 border-red">
+  <div class="font-bold mb-2">🧭 Limites actuelles</div>
+  <ul class="list-disc list-inside space-y-1">
+    <li>Ne comprend pas toujours le contexte metier</li>
+    <li>Peut produire de faux positifs / faux negatifs</li>
+    <li>Ne remplace pas les tests clavier et lecteur d'ecran</li>
+    <li>Ne remplace pas un audit RGAA/WCAG humain</li>
+  </ul>
+</div>
+
+</div>
+
+<div v-click class="mt-6 p-3 bg-green/20 rounded-lg border-l-4 border-green text-sm">
+  <div class="font-bold">✅ Position recommandee</div>
+  <div class="mt-1">Utiliser l'IA comme copilote pour accelerer, puis valider systematiquement avec des tests manuels et des personnes expertes.</div>
 </div>
 
 ---
@@ -574,6 +628,7 @@ Passez à l'action dès demain !
     <strong>Rotor :</strong> Ctrl + Option + U<br>
     <strong>Lecture :</strong> Ctrl + Option + A
   </div>
+  <div class="text-xs mt-6">🥇 <strong>Pour le faire taire :</strong> Ctrl</div>
 </div>
 
 <div v-click class="h-full p-3 bg-dark/50 rounded-lg border-l-4 border-cyan flex flex-col">
@@ -616,7 +671,7 @@ Passez à l'action dès demain !
 
 - ✅ Installer les extensions IDE & navigateur
 - ✅ Lancer une analyse WAVE/Tanaguru sur une page de votre projet
-- ✅ Faire un test clavier sur 1 parcours cle
+- ✅ Faire un test clavier sur 1 parcours clé
 - ✅ Faire un test au lecteur d'ecran
 
 </v-clicks>
@@ -630,12 +685,8 @@ Passez à l'action dès demain !
 <v-clicks class="mt-3">
 
 - 🎯 Ajouter l'accessibilite à la DoD du projet et a vos checklists de PR
-- 🎯 Corriger les images decoratives (`alt=""`)
-- 🎯 Corriger les champs sans `<label>`
-- 🎯 Verifier que l'outline de focus n'est jamais retire
-- 🎯 Verifier les contrastes de couleurs (4.5:1)
-- 🎯 Restructurer avec HTML semantique
-- 🎯 Ajouter des landmarks ARIA si necessaire
+- 🎯 Lire les critères du RGAA
+- 🎯 Suivre les patterns du W3C pour la création d'un nouveau composant
 
 </v-clicks>
 
@@ -645,9 +696,30 @@ Passez à l'action dès demain !
 
 </div>
 
-<div v-click class="mt-8 p-4 bg-blue/20 rounded-lg border-l-4 border-blue">
+<div class="grid grid-cols-2 gap-6 mt-8 text-sm">
+
+<div>
+
+## 🏆 Exemples de quick win
+
+<v-clicks>
+
+- 🏆 Corriger les images decoratives (`alt=""`)
+- 🏆 Corriger les champs sans `<label>`
+- 🏆 Verifier que l'outline de focus n'est jamais retiré
+- 🏆 Verifier les contrastes de couleurs (4.5:1)
+- 🏆 Restructurer avec HTML semantique
+- 🏆 `role="status"` pour annoncer les actions asynchrones 
+- 🏆 `aria-describedby` pour relier les erreurs ou aides 
+</v-clicks>
+
+
+
+</div>
+<div v-click class="mt-8 p-4 bg-blue/20 rounded-lg border-l-4 border-blue self-center">
 <div class="font-bold">💡 Conseil : Intégrez l'accessibilité dès la conception</div>
 <div class="mt-2">C'est plus simple (et moins coûteux) de faire les choses bien dès le début que de corriger après coup.</div>
+</div>
 </div>
 
 ---
