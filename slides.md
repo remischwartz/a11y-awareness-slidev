@@ -244,12 +244,16 @@ class: text-center
 
 <div v-click class="mt-8 p-4 bg-red/20 border-l-4 border-red rounded">
 <div class="font-bold">⚠️ Obligations légales en France</div>
-<div class="mt-2">3 categories concernees par les obligations d'accessibilite numerique</div>
+<div class="mt-2">3 catégories concernées par les obligations d'accessibilité numérique</div>
 </div>
+
+<!--
+Pas parfait, ne veux pas dire qu'il n'y aura plus d'amélioration d'accessibilité possible, mais déjà une bonne base de référence et de comparaison.
+-->
 
 ---
 
-# Qui est concerne par les obligations d'accessibilite ?
+# Qui est concerné par les obligations d'accessibilité ?
 
 <div class="space-y-2 mt-8">
 
@@ -265,27 +269,24 @@ class: text-center
 
 <div v-click class="p-3 bg-purple/20 rounded-lg border-l-4 border-purple">
   <div class="font-bold text-base mb-1">🆕 Entreprises : CA > 2M€ OU > 10 salariés</div>
-  <div class="text-sm">Depuis le 28 juin 2025 (selon secteur) : obligation d'etre accessible, avec un flou juridique sur l'obligation RGAA stricte et la declaration associee.</div>
+  <div class="text-sm">Depuis le 28 juin 2025 (selon secteur) : obligation d'être accessible, avec un flou juridique sur l'obligation RGAA stricte et la déclaration associée.</div>
 </div>
 
 </div>
 
 <div v-click class="mt-2 p-3 bg-teal/20 rounded-lg text-sm">
-<div class="font-bold">📋 Obligations documentaires a publier</div>
+<div class="font-bold">📋 Obligations documentaires à publier</div>
 <ul class="mt-2 list-disc list-inside">
-  <li class="leading-5!">Conformite au referentiel choisi (RGAA recommande en France)</li>
+  <li class="leading-5!">Conformité au référentiel choisi (RGAA recommandé en France)</li>
   <li class="leading-5!">Déclaration d'accessibilité</li>
   <li class="leading-5!">Moyens de contact</li>
   <li class="leading-5!">Statut de conformité affiché</li>
   <li class="leading-5!">Schéma pluriannuel (3 ans)</li>
-  <li class="leading-5!">Plan d'actions annuel (actions de l'annee + suivi des annees precedentes)</li>
+  <li class="leading-5!">Plan d'actions annuel (actions de l'année + suivi des années précédentes)</li>
 </ul>
 </div>
 
-<div v-click class="mt-2 p-3 bg-yellow/20 rounded-lg text-sm">
-<div class="font-bold">⚖️ Point de vigilance juridique (secteur prive)</div>
-<div class="mt-1">Pour les entreprises concernees par les seuils > 2M€ ou > 10 salaries, l'obligation est d'etre accessible. La methode peut etre RGAA, WCAG ou equivalent, selon votre strategie de conformite.</div>
-</div>
+<!-- Pour les entreprises concernées par les seuils > 2M€ ou > 10 salariés, l'obligation est d'être accessible. La méthode peut être RGAA, WCAG ou équivalent, selon votre stratégie de conformité. -->
 
 ---
 
@@ -451,19 +452,6 @@ class: text-center
 🎮
 </div>
 
-<div class="mb-8 p-8 bg-blue/20 rounded-lg">
-  <div class="text-lg mb-4">Accédez au quiz en ligne :</div>
-  <div class="text-xl font-bold text-blue">
-    [Insérer le lien vers le quiz]
-  </div>
-</div>
-
-<div class="mb-8">
-  <div class="text-lg mb-4">Ou scannez le QR code :</div>
-  <div class="inline-block p-6 bg-white rounded-lg">
-    [Insérer le QR code ici]
-  </div>
-</div>
 
 
 ---
@@ -565,8 +553,8 @@ Passez à l'action dès demain !
     <div class="text-2xl">🧪</div>
     <div class="font-bold">Assistant RGAA</div>
   </div>
-  <div class="text-xs opacity-80 mb-1">Etat des lieux et preparation d'audit</div>
-  <div class="text-xs">Permet de passer les criteres et de structurer une pre-analyse.</div>
+  <div class="text-xs opacity-80 mb-1">État des lieux et préparation d'audit</div>
+  <div class="text-xs">Permet de passer les critères et de structurer une pré-analyse.</div>
   <a href="https://accessibilite.numerique.gouv.fr/" target="_blank" class="text-xs text-blue">Ressources RGAA officielles</a>
 </div>
 
@@ -574,7 +562,7 @@ Passez à l'action dès demain !
 
 <div v-click class="mt-4 p-3 bg-amber/20 rounded-lg text-sm border-l-4 border-amber">
   <div class="font-bold">⚠️ Important</div>
-  <div class="mt-1">Les outils automatises couvrent seulement une petite partie de la conformite. Ils detectent des signaux techniques, mais pas la qualite reelle de l'experience (sens, comprehension, parcours, annonces vocales, etc.).</div>
+  <div class="mt-1">Les outils automatisés couvrent seulement une petite partie de la conformité. Ils détectent des signaux techniques, mais pas la qualité réelle de l'expérience (sens, compréhension, parcours, annonces vocales, etc.).</div>
 </div>
 
 ---
@@ -597,15 +585,15 @@ Passez à l'action dès demain !
   <ul>
     <li>
       <strong>Audit :</strong><br>
-      <code>Audit RGAA de ce composant, liste les criteres, ecarts, correctifs et tests.</code>
+      <code>Audit RGAA de ce composant, liste les critères, écarts, correctifs et tests.</code>
     </li>
     <li>
-      <strong>Implementation :</strong><br>
-      <code>Cree ce composant en conformite RGAA avec preuves de verification.</code>
+      <strong>Implémentation :</strong><br>
+      <code>Crée ce composant en conformité RGAA avec preuves de vérification.</code>
     </li>
     <li>
       <strong>Revue PR :</strong><br>
-      <code>Review accessibilite RGAA de cette diff, avec severite et criteres concernes.</code>
+      <code>Review accessibilité RGAA de cette diff, avec sévérité et critères concernés.</code>
     </li>
   </ul>
 </div>
@@ -626,7 +614,7 @@ Passez à l'action dès demain !
   <div class="text-xs opacity-80 mb-2">macOS - Intégré et gratuit</div>
   <div class="text-xs flex-1">
     <strong>Activation :</strong> Cmd + F5<br>
-    <strong>Navigation :</strong> Ctrl + Option + fleches<br>
+    <strong>Navigation :</strong> Ctrl + Option + flèches<br>
     <strong>Rotor :</strong> Ctrl + Option + U<br>
     <strong>Lecture :</strong> Ctrl + Option + A
   </div>
@@ -640,8 +628,8 @@ Passez à l'action dès demain !
   </div>
   <div class="text-xs opacity-80 mb-2">iOS - Intégré et gratuit</div>
   <div class="text-xs flex-1">
-    <strong>Activation :</strong> 3 appuis sur le bouton lateral, ou Reglages > Accessibilite > VoiceOver.<br>
-    <strong>Gestes :</strong> 1 tap = selectionner, 2 taps = activer, glisser 1 doigt = explorer, glisser 3 doigts = defiler.
+    <strong>Activation :</strong> 3 appuis sur le bouton latéral, ou Réglages > Accessibilité > VoiceOver.<br>
+    <strong>Gestes :</strong> 1 tap = sélectionner, 2 taps = activer, glisser 1 doigt = explorer, glisser 3 doigts = défiler.
   </div>
 </div>
 
@@ -652,8 +640,8 @@ Passez à l'action dès demain !
   </div>
   <div class="text-xs opacity-80 mb-2">Android - Intégré et gratuit</div>
   <div class="text-xs flex-1">
-    <strong>Activation :</strong> maintenir les 2 boutons de volume quelques secondes, ou Parametres > Accessibilite > TalkBack.<br>
-    <strong>Gestes :</strong> 1 tap = focus vocal, 2 taps = activer, glisser 2 doigts = defiler.
+    <strong>Activation :</strong> maintenir les 2 boutons de volume quelques secondes, ou Paramètres > Accessibilité > TalkBack.<br>
+    <strong>Gestes :</strong> 1 tap = focus vocal, 2 taps = activer, glisser 2 doigts = défiler.
   </div>
 </div>
 
@@ -674,7 +662,7 @@ Passez à l'action dès demain !
 - ✅ Installer les extensions IDE & navigateur
 - ✅ Lancer une analyse WAVE/Tanaguru sur une page de votre projet
 - ✅ Faire un test clavier sur 1 parcours clé
-- ✅ Faire un test au lecteur d'ecran
+- ✅ Faire un test au lecteur d'écran
 
 </v-clicks>
 
@@ -686,7 +674,7 @@ Passez à l'action dès demain !
 
 <v-clicks class="mt-3">
 
-- 🎯 Ajouter l'accessibilite à la DoD du projet et a vos checklists de PR
+- 🎯 Ajouter l'accessibilité à la DoD du projet et à vos checklists de PR
 - 🎯 Lire les critères du RGAA
 - 🎯 Suivre les patterns du W3C pour la création d'un nouveau composant
 
@@ -706,11 +694,11 @@ Passez à l'action dès demain !
 
 <v-clicks>
 
-- 🏆 Corriger les images decoratives (`alt=""`)
+- 🏆 Corriger les images décoratives (`alt=""`)
 - 🏆 Corriger les champs sans `<label>`
-- 🏆 Verifier que l'outline de focus n'est jamais retiré
-- 🏆 Verifier les contrastes de couleurs (4.5:1)
-- 🏆 Restructurer avec HTML semantique
+- 🏆 Vérifier que l'outline de focus n'est jamais retiré
+- 🏆 Vérifier les contrastes de couleurs (4.5:1)
+- 🏆 Restructurer avec HTML sémantique
 - 🏆 `role="status"` pour annoncer les actions asynchrones 
 - 🏆 `aria-describedby` pour relier les erreurs ou aides 
 </v-clicks>
@@ -733,7 +721,7 @@ Passez à l'action dès demain !
 <div v-click class="mt-12 p-6 bg-dark/50 rounded-lg border-l-4 border-blue">
   <div class=" mb-3">Retrouvez tous les liens vers différentes ressources sur la page Notion : </div>
   <a href="https://www.notion.so/fabernovel/Accessibilit-web-1ee4ee4a529d80b290f9e094f746515d?source=copy_link#2854ee4a529d8024a8f9ce054399db94" target="_blank" class="text-blue">
-    Accessibilite web
+    Accessibilité web
   </a>
 </div>
 
